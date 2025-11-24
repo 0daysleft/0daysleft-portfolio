@@ -43,7 +43,7 @@ const Hero = () => {
             words="Transforming Concepts Into Seamless Experiences" />
 
             <p
-              className="text-center"
+              className="text-purple-center"
             >
               Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga University, Kenya.
             </p>

@@ -4,9 +4,13 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+@import "tailwindcss";
+
+@theme inline {
+  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+}
 
 :root {
-  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

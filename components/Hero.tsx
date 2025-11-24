@@ -1,4 +1,5 @@
 import { Spotlight } from "./ui/spotlight";
+import "../app/globals.css"
 import React from "react"
 
 const Hero = () => {

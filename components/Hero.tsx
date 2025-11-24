@@ -1,7 +1,9 @@
+"use client";
 import { Spotlight } from "./ui/spotlight";
 import "../app/globals.css"
 import React from "react"
 import { cn } from "@/lib/utils";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const Hero = () => {
   return (
@@ -34,6 +36,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center" >
           <h2 className="uppercase tracking-widest text-xs text-center text-blue max-w-80">
             Dynamic Web Magic With Next JS
+            <TextGenerateEffect words={"Who are you!!!!!!!"} />
           </h2>
         </div>
       </div>

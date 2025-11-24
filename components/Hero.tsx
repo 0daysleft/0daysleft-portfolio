@@ -1,6 +1,7 @@
 import { Spotlight } from "./ui/spotlight";
 import "../app/globals.css"
 import React from "react"
+import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (

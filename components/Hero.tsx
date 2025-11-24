@@ -40,10 +40,10 @@ const Hero = () => {
 
             <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-xl"
-            words="Transforming Concepts Into Seamless Experiences" />
+            words="Transforming Concepts Into Seamless User Experiences" />
 
             <p
-              className="text-purple-center"
+              className="text-center"
             >
               Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga University, Kenya.
             </p>

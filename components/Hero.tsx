@@ -37,9 +37,20 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue max-w-80">
             Dynamic Web Magic With Next JS
           </h2>
+
             <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-xl"
             words="Transforming Concepts Into Seamless Experiences" />
+
+            <p
+              className="text-center"
+            >
+              Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga University, Kenya.
+            </p>
+
+
+
+
         </div>
       </div>
     </div>

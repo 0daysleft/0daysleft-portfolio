@@ -33,24 +33,26 @@ const Hero = () => {
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-[#000319]"></div>
       </div>
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center" >
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue max-w-80">
             Dynamic Web Magic With Next JS
           </h2>
 
-            <TextGenerateEffect 
+          <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-xl"
-            words="Transforming Concepts Into Seamless User Experiences" />
+            words="Transforming Concepts Into Seamless User Experiences"
+          />
 
-            <p
-              className="text-center"
-            >
-              Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga University, Kenya.
-            </p>
-
-
-
-
+          <p className="text-center">
+            Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga
+            University, Kenya.
+          </p>
+          <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              Border Magic
+            </span>
+          </button>
         </div>
       </div>
     </div>

@@ -41,11 +41,11 @@ const Hero = () => {
           </h2>
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-xl"
+            className="text-center text-[40px] md:text-5xl lg:text-2xl"
             words="Transforming Concepts Into Seamless User Experiences"
           />
 
-          <p className="text-center">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga
             University, Kenya.
           </p>

@@ -4,6 +4,7 @@ import "../app/globals.css"
 import React from "react"
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
   return (
@@ -55,6 +56,7 @@ const Hero = () => {
               </span>
             </button>
           </a>
+          <MagicButton />
         </div>
       </div>
     </div>

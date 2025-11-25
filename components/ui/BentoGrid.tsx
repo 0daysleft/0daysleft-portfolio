@@ -3,6 +3,7 @@ import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { GridGlobe } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
+import { animate, animationControls } from "motion/react";
 
 export const BentoGrid = ({
   className,
@@ -132,7 +133,9 @@ export const BentoGridItem = ({
             <div className="mt-5 relative">
               <div className={`absolute -bottom-5 right-0`}>
                 <Lottie options={{
-                  loop:
+                  loop: copied,
+                  autoplay: copied,
+                  animationData: animationDate
                 }} />
               </div>
             </div>

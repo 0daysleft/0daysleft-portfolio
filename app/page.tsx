@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { IoHome } from "react-icons/io5";
 
@@ -10,6 +11,7 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <IoHome /> }]}
         />
         <Hero />
+        <Grid />
       </div>
     </main>
   );

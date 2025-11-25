@@ -49,7 +49,7 @@ const Hero = () => {
             University, Kenya.
           </p>
           <a href="#about"className="my-6">
-          <MagicButton title="Show My Work" />
+            <MagicButton title="Show My Work" />
           </a>
         </div>
       </div>

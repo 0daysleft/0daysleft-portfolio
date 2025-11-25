@@ -7,7 +7,7 @@ export default function Grid(){
     <section id="about">
       <BentoGrid>
             {
-              [{title: 'Title 1', description: 'Desc 1', id: '1'}].map( (item) => (
+              [{title: 'Title 1', description: 'Desc 1', id: 1}].map( (item) => (
                 <BentoGridItem 
                 id={item.id}
                 key={item.id}

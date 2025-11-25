@@ -1,10 +1,10 @@
-'use client'
+"use client";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { GridGlobe } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
-import {animationData} from '@/Data/confetti.json';
+import { animationData } from "@/Data/confetti";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 export const BentoGrid = ({
@@ -17,10 +17,8 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto"
-        ,
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
-
       )}
     >
       {children}
@@ -49,13 +47,12 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-
   const [copied, setCopied] = useState(false);
   const handleCopy = () => {
-    navigator.clipboard.writeText('vincentarasa254@gmail.com');
+    navigator.clipboard.writeText("vincentarasa254@gmail.com");
 
     setCopied(true);
-  }
+  };
 
   return (
     <div
@@ -123,7 +120,7 @@ export const BentoGridItem = ({
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
               </div>
               <div className="flex flex-col gap-3 lg:gap-8">
-              <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                 {["JavaScript", "Solidity", "NodeJS"].map((item) => (
                   <span
                     key={item}
@@ -139,25 +136,26 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div className={`absolute -bottom-5 right-0`}>
-                <Lottie options={{
-                  loop: copied,
-                  autoplay: copied,
-                  animationData,
-                  rendererSettings: {
-                    preserveAspectRatio: 'xMidYMind slice',
-                  }
-                }} />
+                <Lottie
+                  options={{
+                    loop: copied,
+                    autoplay: copied,
+                    animationData,
+                    rendererSettings: {
+                      preserveAspectRatio: "xMidYMind slice",
+                    },
+                  }}
+                />
               </div>
-              <MagicButton 
-               title={copied ? 'Email Copied' : 'Copy My Email'}
-               icon={<IoCopyOutline/>}
-               position="left"
-               otherClasses="!bg-[#161a31]"
-               handleClick={handleCopy}
+              <MagicButton
+                title={copied ? "Email Copied" : "Copy My Email"}
+                icon={<IoCopyOutline />}
+                position="left"
+                otherClasses="!bg-[#161a31]"
+                handleClick={handleCopy}
               />
             </div>
           )}
-
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
 import React from "react";
 import { projects } from "@/Data";
 import { PinContainer } from "./ui/3d-pin";
+import { AnimatedPin } from "./ui/PinContainer";
 
 export default function RecentProjects() {
   return (
@@ -17,6 +18,10 @@ export default function RecentProjects() {
             className="lg:min-h-[32.5rem] h=[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
           >
            {title}
+           {/* <AnimatedPin /> */}
+           <PinContainer>
+            {title}
+           </PinContainer>
           </div>
         ))}
       </div>

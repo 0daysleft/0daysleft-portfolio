@@ -2,7 +2,6 @@
 import React from "react";
 import { projects } from "@/Data";
 import { PinContainer } from "./ui/3d-pin";
-import { AnimatedPin } from "./ui/PinContainer";
 
 export default function RecentProjects() {
   return (

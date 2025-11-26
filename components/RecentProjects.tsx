@@ -2,6 +2,7 @@
 import React from "react";
 import { projects } from "@/Data";
 import { PinContainer } from "./ui/3d-pin";
+import { FaLocationArrow } from "react-icons/fa";
 
 export default function RecentProjects() {
   return (
@@ -42,6 +43,7 @@ export default function RecentProjects() {
                     ) )
                   }
                 </div>
+                <div className="flex justify-center items-center"> <p className="flex lg:text-xl md:text-xs text-sm">Check Out Live Site</p> <FaLocationArrow className="ms-3" color="#Cbacf9"/> </div>
               </div>
            </PinContainer>
           </div>

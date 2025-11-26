@@ -1,7 +1,7 @@
 "use client";
 import { Spotlight } from "./ui/spotlight";
-import "../app/globals.css"
-import React from "react"
+import "../app/globals.css";
+import React from "react";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
@@ -49,17 +49,17 @@ const Hero = () => {
             Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga
             University, Kenya.
           </p>
-          <a href="#about"className="my-6">
+          <a href="#about" className="my-6">
             <MagicButton
-            title="Show My Work"
-            icon={ <FaLocationArrow/> }
-            position='right'
+              title="Show My Work"
+              icon={<FaLocationArrow />}
+              position="right"
             />
           </a>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export  default Hero;
+export default Hero;

@@ -17,7 +17,7 @@ export default function RecentProjects() {
             className="lg:min-h-[32.5rem] h=[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
           >
            <PinContainer title={title} href={link}>
-              <div>
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vh] overflow-hidden h-[20vh]">
                 <div>
                   <img src="/bg.png" alt="bg-img" />
                 </div>

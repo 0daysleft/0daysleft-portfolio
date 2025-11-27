@@ -12,9 +12,10 @@ export default function Approach() {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning And Starategy"
-          icon={
-            <AceternityIcon order="Phase One"/>
-          }
+          icon={<AceternityIcon order="Phase One" />}
+          description="We'll collaborate to map out your website's goals, target audience, 
+          and key functionalities. We'll discuss things like site structure, 
+          navigation, and content requirements."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,10 +23,11 @@ export default function Approach() {
           />
         </Card>
         <Card
-          title="Nisha is Munni"
-          icon={
-            <AceternityIcon order="Phase Two"/>
-          }
+          title="Development & Progress Update"
+          icon={<AceternityIcon order="Phase Two" />}
+          description="Once we agree on the plan, I cue my lofi playlist and dive into
+          coding. From initial sketches to polished code, I keep you updated
+          every step of the way."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -40,10 +42,11 @@ export default function Approach() {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Munni is Aditi"
-          icon={
-            <AceternityIcon order="Phase Three"/>
-          }
+          title="Development & Launch"
+          icon={<AceternityIcon order="Phase Three" />}
+          description="         This is where the magic happens! Based on the approved design, 
+          I'll translate everything into functional code, building your website
+          from the ground up."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -60,10 +63,12 @@ const Card = ({
   title,
   icon,
   children,
+  description
 }: {
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
+  description: string
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -93,9 +98,10 @@ const Card = ({
         <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
           {icon}
         </div>
-        <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-          {title}
-        </h2>
+        <div className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+          <h2 className="font-bold text-center pb-[2rem]">{title}</h2>{" "}
+          <p className="indent-10">{description}</p>
+        </div>
       </div>
     </div>
   );

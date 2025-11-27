@@ -14,7 +14,7 @@ export default function Clients() {
             direction="left"
             speed="slow"
           />
-          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 my-16">
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 my-16 border-rounded">
             {
               companies.map(
                 ({id,img,name,nameImg}) => (

@@ -4,7 +4,7 @@ import { socialMedia } from "@/Data";
 
 export default function Footer(){
   return (
-    <footer className="w-full pt-20 pb-10 mb-[2rem]" id="contact">
+    <footer className="w-full pt-20 md:mb-[2rem] mb-[1rem]" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready To Take <span className="text-[purple]">Your</span> Digital

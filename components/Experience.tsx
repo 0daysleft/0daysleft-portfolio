@@ -1,4 +1,5 @@
 import { workExperience } from "@/Data/index";
+import { Button } from "./ui/moving-border";
 
 export default function Experience() {
   return (
@@ -10,7 +11,13 @@ export default function Experience() {
         {
           workExperience.map(
             (card) => (
-
+              <Button>
+                <div className="">
+                  <img src={card.thumbnail}
+                  alt={card.title}
+                  className="lg:w-32 md:w-20 w-16"/>
+                </div>
+              </Button>
             )
           )
         }

@@ -5,15 +5,17 @@ export default function Clients() {
   return (
     <div className="py-20" id="clients">
       <h1 className="heading">
-        Kind Words From{" "}
-        <span className="text-[purple]">Satisfied Clients</span>
+        Kind Words From <span className="text-[purple]">Satisfied Clients</span>
       </h1>
       <div className="flex flex-col items-center">
-        <InfiniteMovingCards 
-          items={testimonials}
-          direction="right"
-          speed='slow'
-        />
+        <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">
+          <InfiniteMovingCards
+            items={testimonials}
+            direction="right"
+            speed="slow"
+            pauseOnHover={false}
+          />
+        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative bg-[#000319] flex justify-center items-center flex-col mx-auto sn:px-10 px-5">
+    <main className="relative bg-[#000319] flex justify-center items-center flex-col mx-auto sn:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav
           navItems={navItems}

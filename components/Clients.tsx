@@ -1,3 +1,6 @@
+import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import {testimonials} from "@/Data/index";
+
 export default function Clients() {
   return (
     <div className="py-20" id="clients">
@@ -5,7 +8,13 @@ export default function Clients() {
         Kind Words From{" "}
         <span className="text-[purple]">Satisfied Clients</span>
       </h1>
-      <div className="flex flex-col items-center"></div>
+      <div className="flex flex-col items-center">
+        <InfiniteMovingCards 
+          items={testimonials}
+          direction="right"
+          speed='slow'
+        />
+      </div>
     </div>
   );
 }

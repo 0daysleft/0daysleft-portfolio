@@ -1,5 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
+import { socialMedia } from "@/Data";
 
 export default function Footer(){
   return (
@@ -31,13 +32,34 @@ export default function Footer(){
         </a>
       </div>
 
-      <div className="">
+      <div className="text-center mt-[2rem]">
         <p className="md:text-base text-sm">
           Copyright © {new Date().getUTCFullYear()}{" "}
-          <a href="https://github.com/0daysleft" className="decoration-none">
+          <a
+            href="https://github.com/0daysleft"
+            className="no-underline relative z-10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Vincent Okemwa @<span className="text-[purple]">0daysleft</span>
           </a>{" "}
         </p>
+
+        <div className="flex items-center md:gap-3 gap-6">
+          {
+            socialMedia.map(
+              (profile) => (
+                <div key={profile.id}>
+                  <img src={profile.img}
+                  alt={profile.id}
+                  width={20}
+                  height={20}
+                  />
+                </div>
+              )
+            )
+          }
+        </div>
       </div>
     </footer>
   );

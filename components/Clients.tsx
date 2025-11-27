@@ -11,9 +11,8 @@ export default function Clients() {
         <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
-            direction="right"
+            direction="left"
             speed="slow"
-            pauseOnHover={false}
           />
         </div>
       </div>

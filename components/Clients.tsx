@@ -4,7 +4,7 @@ import {companies} from "@/Data/index";
 
 export default function Clients() {
   return (
-    <div className="py-20" id="clients">
+    <div className="py-20" id="testimonials">
       <h1 className="heading">
         Kind Words From <span className="text-[purple]">Satisfied Clients</span>
       </h1>

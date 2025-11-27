@@ -8,13 +8,13 @@ export default function Clients() {
       <h1 className="heading">
         Kind Words From <span className="text-[purple]">Satisfied Clients</span>
       </h1>
-      <div className="flex flex-col items-center max-lg:mt-10">
+      <div className="flex flex-col items-center max-lg:mt-10 my-24">
           <InfiniteMovingCards
             items={testimonials}
             direction="left"
             speed="slow"
           />
-          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 my-16">
             {
               companies.map(
                 ({id,img,name,nameImg}) => (

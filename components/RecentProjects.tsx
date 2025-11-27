@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { projects } from "@/Data";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
@@ -20,7 +19,7 @@ export default function RecentProjects() {
             <PinContainer
               title={link}
               href={link}
-              className="sm:w-[370px] w-[60vw]"
+              className="sm:w-[370px]"
             >
               <div className="relative flex items-center justify-center overflow-hidden sm:h-[40vh] h-[30vh] mb-10 ">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">

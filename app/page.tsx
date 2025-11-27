@@ -1,7 +1,7 @@
+"use client"
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { IoHome } from "react-icons/io5";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/Data";
 import Clients from "@/components/Clients";

@@ -46,9 +46,15 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Vincent Okemwa, A NEXTJS Developer Based In Kirinyaga
-            University, Kenya.
+            Hi 👋, I&apos;m Vincent Okemwa — A Next.Js Developer Based In
+            Kirinyaga University, Kenya.
           </p>
+
+          <p className="text-center font-semibold md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Crafting ⚡ blazing-fast, 📈 scalable, and 🎯 user-first web
+            experiences with Next.js 🚀
+          </p>
+
           <a href="#about" className="my-6">
             <MagicButton
               title="Show My Work"

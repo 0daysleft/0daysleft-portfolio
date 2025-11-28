@@ -2,6 +2,7 @@
 import { projects } from "@/Data";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
+import "../app/globals.css"
 
 export default function RecentProjects() {
   return (
@@ -10,7 +11,7 @@ export default function RecentProjects() {
         A Small Selection of{" "}
         <span className="text-[purple]">Recent Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10 ">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}

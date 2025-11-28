@@ -112,24 +112,24 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-8">
+            <div className="flex gap-1 lg:gap-5 absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-3 lg:gap-4">
                 {["React.JS", "Next.JS", "TypeScript"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"
+                    className="py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+                <span className="px-3 rounded-lg text-center bg-[#10132e]" />
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+              <div className="flex flex-col gap-3 lg:gap-4">
+                <span className="py-1 px-1 rounded-lg text-center bg-[#10132e]" />
                 {["JavaScript", "Solidity", "NodeJS"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"
+                    className="py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"
                   >
                     {item}
                   </span>

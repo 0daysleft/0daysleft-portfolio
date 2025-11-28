@@ -14,7 +14,7 @@ export default function RecentProjects() {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="max-sm:h-[41rem] h-[32rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[370px] w-[80vw]"
+            className="max-sm:h-[20rem] max-sm:mt-[5rem] h-[32rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[370px] w-[80vw]"
           >
             <PinContainer
               title={link}

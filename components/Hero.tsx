@@ -5,7 +5,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero = () => {
   return (

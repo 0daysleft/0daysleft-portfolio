@@ -16,11 +16,7 @@ export default function RecentProjects() {
             key={id}
             className="max-sm:h-[20rem] max-sm:mt-[5rem] max-lg:h-[40rem] h-[32rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[370px] w-[80vw]"
           >
-            <PinContainer
-              title={link}
-              href={link}
-              className="sm:w-[370px]"
-            >
+            <PinContainer title={link} href={link} className="sm:w-[370px]">
               <div className="relative flex items-center justify-center overflow-hidden max-sm:h-[100%] h-max mb-10 ">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
@@ -34,7 +30,7 @@ export default function RecentProjects() {
                 {des}
               </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3 ">
+              <div className="flex items-center justify-between mt-7 mb-3 max-md:flex-col">
                 <div className="flex items-center">
                   {iconLists.map((icon, index) => (
                     <div
@@ -50,7 +46,7 @@ export default function RecentProjects() {
                 </div>
                 <div className="flex justify-center items-center">
                   {" "}
-                  <p className="flex md:text-xs text-base">
+                  <p className="flex md:text-xs text-base max-md:pt-[1rem]">
                     Check Out Live Site
                   </p>{" "}
                   <FaLocationArrow className="ms-3" color="#Cbacf9" />{" "}

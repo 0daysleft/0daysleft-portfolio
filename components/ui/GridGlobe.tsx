@@ -1,9 +1,20 @@
 "use client";
-import dynamic from "next/dynamic";
 
-const World = dynamic(() => import("../ui/Globe").then((m) => m.World), {
-  ssr: false,
-});
+import dynamic from "next/dynamic";
+import type { FC } from "react";
+
+// Tell TypeScript that `World` is a React component
+const World = dynamic(
+  () => import("../ui/Globe").then((m) => m.World as FC<any>),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="w-full h-full flex items-center justify-center">
+        <div className="w-8 h-8 border-4 border-cyan-400 border-t-transparent rounded-full animate-spin" />
+      </div>
+    ),
+  }
+);
 
 export function GridGlobe() {
   const globeConfig = {
@@ -28,7 +39,9 @@ export function GridGlobe() {
     autoRotate: true,
     autoRotateSpeed: 0.5,
   };
+
   const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
+
   const sampleArcs = [
     {
       order: 1,

@@ -15,10 +15,10 @@ export default function RecentProjects() {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="max-sm:h-[20rem] max-sm:mt-[5rem] max-lg:h-[40rem] h-[32rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[370px] w-[80vw] max-md:my-[6rem]"
+            className="max-sm:h-[20rem] max-sm:mt-[5rem] max-lg:h-[40rem] h-[32rem] lg:min-h-[20.5rem] flex items-center justify-center sm:w-[370px] w-[80vw] max-md:my-[2rem]"
           >
             <PinContainer title={link} href={link} className="sm:w-[370px]">
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[25vh] lg:h-[33vh] mb-10 max-md:h-[40vh]">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] max-sm:h-[30vh] rounded-2xl overflow-hidden h-[25vh] lg:h-[33vh] mb-10 max-md:h-[40vh]">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>

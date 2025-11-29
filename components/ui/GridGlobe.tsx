@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import type { FC } from "react";
 
-// Tell TypeScript that `World` is a React component
 const World = dynamic(
   () => import("../ui/Globe").then((m) => m.World as FC<any>),
   {

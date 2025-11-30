@@ -2,9 +2,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
-// import { GridGlobe } from "./GridGlobe";
-// import Lottie from "react-lottie";
-// import { animationData } from "@/Data/confetti";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 

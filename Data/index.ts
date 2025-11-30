@@ -108,33 +108,93 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Vincent was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vincent's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vincent is the ideal partner.",
-    name: "Joel Mikuro",
-    title: "Director of AlphaStream Technologies",
+      "Working with Vincent has been an absolute game-changer for our business. His technical expertise and innovative ideas brought our vision to life in ways we hadn’t imagined.",
+    name: "Emily Carson",
+    title: "Founder of Stellar Designs",
   },
   {
     quote:
-      "Collaborating with Vincent was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vincent's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vincent is the ideal partner.",
-    name: "Waren Kip",
-    title: "Director of AlphaStream Technologies",
+      "Vincent is a true professional. His attention to detail and proactive approach made the entire process seamless. Highly recommended for any web project.",
+    name: "Nathaniel Brooks",
+    title: "CEO of Apex Innovations",
   },
   {
     quote:
-      "Collaborating with Vincent was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vincent's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vincent is the ideal partner.",
-    name: "Zane Ogando",
-    title: "Director of AlphaStream Technologies",
+      "I was blown away by Vincent’s creativity and dedication. He delivered more than we asked for and made sure every detail was perfect.",
+    name: "Harper Sinclair",
+    title: "Creative Director at Visionary Labs",
   },
   {
     quote:
-      "Collaborating with Vincent was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vincent's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vincent is the ideal partner.",
-    name: "Obed Ombaba",
-    title: "Director of AlphaStream Technologies",
+      "Vincent consistently exceeded our expectations. His work ethic, skill, and passion for development make him an outstanding partner.",
+    name: "Liam O’Connor",
+    title: "Head of Product at NextGen Solutions",
   },
   {
     quote:
-      "Collaborating with Vincent was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vincent's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vincent is the ideal partner.",
-    name: "Zero Day",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Vincent was effortless. He understood our goals instantly and executed flawlessly, making the process enjoyable and productive.",
+    name: "Zara Patel",
+    title: "CEO of Bright Horizon Studios",
+  },
+  {
+    quote:
+      "Vincent’s ability to combine functionality with aesthetics is unmatched. The website he built not only looks amazing but performs exceptionally well.",
+    name: "Ethan Ramirez",
+    title: "CTO of Quantum Leap Tech",
+  },
+  {
+    quote:
+      "From start to finish, Vincent’s professionalism, responsiveness, and expertise made this one of the smoothest collaborations we’ve ever had.",
+    name: "Sophia Nguyen",
+    title: "Marketing Director at Luminary Media",
+  },
+  {
+    quote:
+      "Vincent brings energy, insight, and creativity to every project. His work elevated our brand and helped us connect better with our audience.",
+    name: "Jackson Miller",
+    title: "Founder of EchoWave Agency",
+  },
+  {
+    quote:
+      "Working with Vincent was a pleasure. He listens, understands, and executes with precision. Our website has never looked better.",
+    name: "Amara Okafor",
+    title: "Head of Digital Strategy at NovaCore",
+  },
+  {
+    quote:
+      "Vincent’s talent and commitment are truly impressive. He turns complex ideas into beautiful, functional solutions that drive results.",
+    name: "Oliver Bennett",
+    title: "CEO of Skyward Tech",
+  },
+  {
+    quote:
+      "Vincent is a rare professional who balances creativity, technical skill, and reliability. He made the entire process smooth and enjoyable.",
+    name: "Isabella Rossi",
+    title: "Founder of Aurora Interactive",
+  },
+  {
+    quote:
+      "The level of dedication Vincent brings to his work is extraordinary. Every detail was handled meticulously, and the outcome surpassed our expectations.",
+    name: "Daniel Kim",
+    title: "Director of Innovation at Vertex Solutions",
+  },
+  {
+    quote:
+      "Vincent’s guidance and expertise helped us achieve a website that not only looks amazing but also performs flawlessly. We’re thrilled with the results.",
+    name: "Maya Thompson",
+    title: "Product Manager at Horizon Tech",
+  },
+  {
+    quote:
+      "From concept to launch, Vincent delivered excellence. His passion for development and design shows in every aspect of his work.",
+    name: "Luca Moretti",
+    title: "Creative Lead at PixelWave Studio",
+  },
+  {
+    quote:
+      "Vincent is dependable, talented, and highly skilled. Collaborating with him has been one of the most positive experiences in our digital projects.",
+    name: "Chloe Anderson",
+    title: "CEO of Stellar Ventures",
   },
 ];
 

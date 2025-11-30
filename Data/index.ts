@@ -14,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.webp",
     spareImg: "",
   },
   {
@@ -44,8 +44,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "/grid.webp",
+    spareImg: "/b4.webp",
   },
 
   {
@@ -55,8 +55,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "/b5.webp",
+    spareImg: "/grid.webp",
   },
   {
     id: 6,
@@ -75,32 +75,32 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/p1.webp",
+    iconLists: ["/re.webp", "/tail.webp", "/ts.webp", "/three.webp", "/fm.webp"],
     link: "https://github.com/0daysleft?tab=repositories",
   },
   {
     id: 2,
     title: "Zoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "/p2.webp",
+    iconLists: ["/next.webp", "/tail.webp", "/ts.webp", "/stream.webp", "/c.webp"],
     link: "https://github.com/0daysleft?tab=repositories",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: "/p3.webp",
+    iconLists: ["/re.webp", "/tail.webp", "/ts.webp", "/three.webp", "/c.webp"],
     link: "https://github.com/0daysleft?tab=repositories",
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: "/p4.webp",
+    iconLists: ["/next.webp", "/tail.webp", "/ts.webp", "/three.webp", "/gsap.webp"],
     link: "https://github.com/0daysleft?tab=repositories",
   },
 ];
@@ -202,32 +202,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "/cloud.webp",
+    nameImg: "/cloudName.webp",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/app.webp",
+    nameImg: "/appName.webp",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "/host.webp",
+    nameImg: "/hostName.webp",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/s.webp",
+    nameImg: "/streamName.webp",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/dock.webp",
+    nameImg: "/dockerName.webp",
   },
 ];
 
@@ -237,35 +237,35 @@ export const workExperience = [
     title: "Next.js Developer (Indie + Projects)",
     desc: "Built and optimized full-stack applications with Next.js, delivering fast, scalable, production-oriented user experiences.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.webp",
   },
   {
     id: 2,
     title: "Frontend Engineer Intern",
     desc: "Implemented interactive React components and improved platform responsiveness, contributing to a smoother user workflow.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.webp",
   },
   {
     id: 3,
     title: "UX/UI Developer Intern",
     desc: "Designed polished, responsive interfaces using React & Tailwind, elevating usability and visual quality across multiple modules.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.webp",
   },
   {
     id: 4,
     title: "Web Developer Intern",
     desc: "Developed fast, mobile-first websites end-to-end, translating requirements into clean and reliable real-world solutions.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.webp",
   },
   {
     id: 5,
     title: "Indie Web Developer",
     desc: "Shipped self-directed web projects using modern tools while strengthening full-stack problem-solving and product thinking.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.webp",
   },
 ];
 
@@ -273,17 +273,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/git.webp",
     link: "https://github.com/0daysleft"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/twit.webp",
     link: "https://x.com/0day101"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/link.webp",
     link: "https://github.com/0daysleft"
   },
 ];

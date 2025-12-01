@@ -76,7 +76,13 @@ export const projects = [
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.webp",
-    iconLists: ["/re.webp", "/tail.webp", "/ts.webp", "/three.webp", "/fm.webp"],
+    iconLists: [
+      "/re.webp",
+      "/tail.webp",
+      "/ts.webp",
+      "/three.webp",
+      "/fm.webp",
+    ],
     link: "https://github.com/0daysleft?tab=repositories",
   },
   {
@@ -84,7 +90,13 @@ export const projects = [
     title: "Zoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.webp",
-    iconLists: ["/next.webp", "/tail.webp", "/ts.webp", "/stream.webp", "/c.webp"],
+    iconLists: [
+      "/next.webp",
+      "/tail.webp",
+      "/ts.webp",
+      "/stream.webp",
+      "/c.webp",
+    ],
     link: "https://github.com/0daysleft?tab=repositories",
   },
   {
@@ -100,7 +112,13 @@ export const projects = [
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.webp",
-    iconLists: ["/next.webp", "/tail.webp", "/ts.webp", "/three.webp", "/gsap.webp"],
+    iconLists: [
+      "/next.webp",
+      "/tail.webp",
+      "/ts.webp",
+      "/three.webp",
+      "/gsap.webp",
+    ],
     link: "https://github.com/0daysleft?tab=repositories",
   },
 ];
@@ -244,7 +262,7 @@ export const workExperience = [
     title: "Frontend Engineer Intern",
     desc: "Implemented interactive React components and improved platform responsiveness, contributing to a smoother user workflow.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.webp",
+    thumbnail: "/exp4.webp",
   },
   {
     id: 3,
@@ -269,21 +287,20 @@ export const workExperience = [
   },
 ];
 
-
 export const socialMedia = [
   {
     id: 1,
     img: "/git.webp",
-    link: "https://github.com/0daysleft"
+    link: "https://github.com/0daysleft",
   },
   {
     id: 2,
     img: "/twit.webp",
-    link: "https://x.com/0day101"
+    link: "https://x.com/0day101",
   },
   {
     id: 3,
     img: "/link.webp",
-    link: "https://github.com/0daysleft"
+    link: "https://github.com/0daysleft",
   },
 ];

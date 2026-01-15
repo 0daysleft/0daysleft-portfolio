@@ -20,7 +20,7 @@ export default function RecentProjects() {
             <PinContainer title={link} href={link} className="sm:w-[370px]">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] rounded-2xl overflow-hidden max-sm:h-[30vh] h-[25vh] lg:h-[33vh] mb-10 max-md:h-[40vh]">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <img src="/bg.webp" alt="bg-img" />
                 </div>
                 <img
                   src={img}
